@@ -1,5 +1,7 @@
-import React from 'react';
+import React from 'react/addons';
 import PokeMessage from './PokeMessage';
+
+// const ReactCSSTransitionGroup = React.addons.ReactCSSTransitionGroup;
 
 export default class PokeChat extends React.Component {
   render() {
